@@ -117,7 +117,7 @@ function renderTasks(index = 0) {
   // Delete button
   const deleteBtn = document.createElement('button');
   deleteBtn.className = 'btn-small';
-  deleteBtn.textContent = '🗑️';
+  deleteBtn.textContent = 'Delete';
   deleteBtn.addEventListener('click', () => deleteTask(task.id));
 
   // Add appropriate buttons
