@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>To-Do List</title>
 
-  <!-- Lodash for unique IDs -->
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
 
   <style>
@@ -93,8 +92,16 @@
     .btn-small {
       padding: 5px 10px;
       font-size: 14px;
+      border-radius: 4px;
+      color: white;
+      border: none;
+      cursor: pointer;
     }
 
+    /* Button colors */
+    .done-btn { background-color: #28a745; }   /* green */
+    .undo-btn { background-color: #dc3545; }   /* red */
+    .delete-btn { background-color: #555555; } /* dark gray */
   </style>
 </head>
 <body>
