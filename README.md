@@ -7,9 +7,10 @@ This program is a web-based to-do list application that allows users to create, 
 
 I wrote this program the way I did to become more familiar with the JavaScript language, particularly with integrating it with an HTML file to create a working webpage. I also wanted to experiment with integrating external libraries, as I did with Lodash here.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
+Here's a link to a video tutorial for this code, as well as a Pages link to run it in the browser:
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=PliMmGqz-sE)
+[Pages Link](https://thedoorman26.github.io/todo/)
 
 # Development Environment
 
