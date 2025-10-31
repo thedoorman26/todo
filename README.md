@@ -1,10 +1,11 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program is a web-based to-do list application that allows users to create, complete, and delete tasks. It also has implementation for creating 3 types of tasks:
+-One-Time Tasks: These are simple "do it once, check it off" type tasks that can either be complete or incomplete.
+-Multi-Step Tasks: When these tasks are created, the user is asked for a completion number. The task must be completed that many times before it is checked off as done.
+-Eternal Tasks: These tasks are never actually considered "done." Instead, each one of these tasks is given a counter that increments by one when the "done" button is clicked, and decrements by one when "undo" is clicked.
 
-{Provide a description of the software that you wrote to demonstrate the JavaScript language.}
-
-{Describe your purpose for writing this software.}
+I wrote this program the way I did to become more familiar with the JavaScript language, particularly with integrating it with an HTML file to create a working webpage. I also wanted to experiment with integrating external libraries, as I did with Lodash here.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
@@ -12,21 +13,17 @@
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+-Code was edited in Visual Studio Code
+-Language was JavaScript packaged alongside an HTML file
+-Imported the Lodash library
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [W3Schools tutorials](https://www.w3schools.com/js/)
+- [Lodash Documentation](https://lodash.com/docs/4.17.15#uniqueId)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+-Add local storage to save the list between refreshes
+- Add more CSS elements to make the page prettier
+- Add sound effects when creating, completing, and deleting tasks
