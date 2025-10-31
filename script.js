@@ -8,10 +8,7 @@ document.getElementById("addOneTimeBtn").addEventListener("click", () => safeCal
 document.getElementById("addMultiBtn").addEventListener("click", () => safeCall(() => addTask("multi-step")));
 document.getElementById("addEternalBtn").addEventListener("click", () => safeCall(() => addTask("eternal")));
 
-/**
- * A simple wrapper to safely execute any function
- * and show user-friendly error alerts.
- */
+// Error catcher
 function safeCall(fn) {
   try {
     fn(); // Run the provided function
