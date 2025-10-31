@@ -1,9 +1,9 @@
 # Overview
 
 This program is a web-based to-do list application that allows users to create, complete, and delete tasks. It also has implementation for creating 3 types of tasks:
--One-Time Tasks: These are simple "do it once, check it off" type tasks that can either be complete or incomplete.
--Multi-Step Tasks: When these tasks are created, the user is asked for a completion number. The task must be completed that many times before it is checked off as done.
--Eternal Tasks: These tasks are never actually considered "done." Instead, each one of these tasks is given a counter that increments by one when the "done" button is clicked, and decrements by one when "undo" is clicked.
+- One-Time Tasks: These are simple "do it once, check it off" type tasks that can either be complete or incomplete.
+- Multi-Step Tasks: When these tasks are created, the user is asked for a completion number. The task must be completed that many times before it is checked off as done.
+- Eternal Tasks: These tasks are never actually considered "done." Instead, each one of these tasks is given a counter that increments by one when the "done" button is clicked, and decrements by one when "undo" is clicked.
 
 I wrote this program the way I did to become more familiar with the JavaScript language, particularly with integrating it with an HTML file to create a working webpage. I also wanted to experiment with integrating external libraries, as I did with Lodash here.
 
@@ -13,9 +13,9 @@ I wrote this program the way I did to become more familiar with the JavaScript l
 
 # Development Environment
 
--Code was edited in Visual Studio Code
--Language was JavaScript packaged alongside an HTML file
--Imported the Lodash library
+- Code was edited in Visual Studio Code
+- Language was JavaScript packaged alongside an HTML file
+- Imported the Lodash library
 
 # Useful Websites
 
