@@ -19,11 +19,11 @@ I wrote this program the way I did to become more familiar with the JavaScript l
 
 # Useful Websites
 
-- [W3Schools tutorials](https://www.w3schools.com/js/)
+- [W3Schools Tutorials](https://www.w3schools.com/js/)
 - [Lodash Documentation](https://lodash.com/docs/4.17.15#uniqueId)
 
 # Future Work
 
--Add local storage to save the list between refreshes
+- Add local storage to save the list between refreshes
 - Add more CSS elements to make the page prettier
 - Add sound effects when creating, completing, and deleting tasks
